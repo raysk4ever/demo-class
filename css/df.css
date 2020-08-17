@@ -1,0 +1,64 @@
+/* 
+parents: display: flex*, flex-direction, justify-content, align-items
+child: flex, flex-grow
+*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+div {
+  padding: 10px;
+}
+
+.div1 {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: yellowgreen;
+}
+
+.div11 {
+  flex-grow: 1;
+  background-color: red;
+}
+
+.div12 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  background-color: darkcyan;
+}
+
+
+.div121 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: white;
+}
+
+.a1 {
+  /* flex: 1; */
+  background-color: green;
+  align-self: flex-end;
+
+}
+.a2 {
+  background-color: yellow;
+  align-self: center;
+}
+
+.a3 {
+  background-color: blue;
+  align-self: flex-start;
+}
+
+
+.div13 {
+  flex: 1;
+  background-color: brown;
+}
+

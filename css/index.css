@@ -1,0 +1,48 @@
+/* selector: html tag, class, id 
+
+flex: 1 dir ==> left -> right
+
+
+row ==>  hor
+column ==> ver 
+
+*/
+body {
+  background-color: seagreen;
+}
+
+.parent {
+  background-color: yellow;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.child {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  margin: 10px;
+  padding: 10px;
+}
+/* 
+span {
+  color: yellow;
+}
+
+
+.span-1 {
+  color: red;
+}
+
+.span-2 {
+  color: yellowgreen;
+}
+
+
+#my-span {
+  color: blue;
+}
+ */
