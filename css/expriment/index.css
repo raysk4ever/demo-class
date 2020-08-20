@@ -1,0 +1,8 @@
+.container {
+  /* background-color: yellow; */
+  background-image: linear-gradient(90deg, #eee, blue);
+}
+
+.container > div > p {
+  /* color: red; */
+}
