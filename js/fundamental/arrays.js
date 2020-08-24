@@ -8,16 +8,13 @@
 // let a = new Number(10)
 // let obj = new Object({})
 // let arr = new Array([])
-
-
-
-
+// ---------------------------------------------------------
 // array ==> some object functionality + array functionality
 
-// .length
-// includes
-// indexOf
-
+// .length // number
+// includes // boolean
+// indexOf // number
+// ---------------------------------------------------------
 
 let marks = [100, 200, 300, 400]
 
