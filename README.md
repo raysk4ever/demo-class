@@ -1,4 +1,4 @@
 # demo-class
 demo-class
 
-## Added HTML, CSS 
+## Added HTML, CSS, Vanilla JS 
